@@ -4,7 +4,7 @@ set(MY_PROJECT_NAME TestReload)
 
 set(PROJECT_ROOT_PATH "./")
 
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../Lua build_lua)
+add_subdirectory(./../Lua build_lua)
 #add_subdirectory(lua)
 
 add_executable(${MY_PROJECT_NAME} ${PROJECT_ROOT_PATH}/main.cpp)
