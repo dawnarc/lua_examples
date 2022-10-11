@@ -1,11 +1,6 @@
 #pragma once
 
-/*#include <lua.h>
-#include <lualib.h>
-#include <lauxlib.h>*/
-
 #include <lua.hpp>
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -29,6 +24,5 @@ int main(int argc, char **argv) {
 	}
 	
 	lua_close(L);
-	system("pause>nul");
 	return 0;
 }
