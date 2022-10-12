@@ -1,2 +1,2 @@
 ::run test case
-start "" "CMD " /c TestIO.exe main.lua ^& pause
+start "" "CMD " /c %~dp0build\TestIO.exe %~dp0/main.lua ^& pause
